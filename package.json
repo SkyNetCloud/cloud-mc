@@ -28,7 +28,6 @@
   },
   "typings": "./lib/index.d.ts",
   "scripts": {
-    "postinstall": "patch-package",
     "dev": "tsc && node lib/index.js",
     "build": "tsc",
     "lint": "tslint -c tslint.json src/**/*.ts"
